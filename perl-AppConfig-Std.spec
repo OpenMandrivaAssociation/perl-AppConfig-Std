@@ -12,7 +12,6 @@ Group:		Development/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/AppConfig/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}/
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel perl-AppConfig
 
 %description
