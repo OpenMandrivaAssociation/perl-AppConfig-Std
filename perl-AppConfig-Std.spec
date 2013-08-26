@@ -1,15 +1,15 @@
 %define upstream_name	 AppConfig-Std
-%define upstream_version 1.07
+%define upstream_version 1.08
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 1.08
+Release:	1
 
 Summary:	Subclass of AppConfig that provides standard options
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/AppConfig/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/AppConfig/AppConfig-Std-1.08.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl-AppConfig
@@ -33,7 +33,7 @@ make test
 %makeinstall_std
 
 %files
-%doc ChangeLog README
+%doc README
 %{perl_vendorlib}/AppConfig/*
 %{_mandir}/*/*
 
@@ -79,4 +79,5 @@ make test
 
 * Thu Sep 16 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 1.07-1mdk
 - Initial MDK release.
+
 
