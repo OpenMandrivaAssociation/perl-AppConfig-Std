@@ -1,4 +1,5 @@
 removed_sources:
   AppConfig-Std-1.07.tar.bz2: b43297102359aa00407b934f735fadb95f5524e7
-sources:
   AppConfig-Std-1.08.tar.gz: 6eed763792c94b98e0298a1b56b5eb95148426cc
+sources:
+  AppConfig-Std-1.09.tar.gz: fd5ac6cdb488a277476ec2fc513f77d0e9702f19
