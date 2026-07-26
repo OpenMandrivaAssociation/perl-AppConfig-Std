@@ -1,14 +1,12 @@
 %define upstream_name	 AppConfig-Std
-%define upstream_version 1.10
-
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	1.10
+Release:	4
 Summary:	Subclass of AppConfig that provides standard options
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/N/NE/NEILB/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/%{upstream_name}/
+Source0:	http://search.cpan.org/CPAN/authors/id/N/NE/NEILB/%{upstream_name}-%{version}.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(AppConfig)
@@ -26,7 +24,7 @@ AppConfig; AppConfig provides a general mechanism for handling global
 configuration variables.
 
 %prep
-%setup -qn %{upstream_name}-%{upstream_version}
+%setup -qn %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
