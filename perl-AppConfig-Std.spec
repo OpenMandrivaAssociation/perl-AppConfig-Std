@@ -2,7 +2,7 @@
 %define upstream_version 1.10
 Name:		perl-%{upstream_name}
 Version:	1.10
-Release:	3
+Release:	4
 Summary:	Subclass of AppConfig that provides standard options
 License:	GPL+ or Artistic
 Group:		Development/Perl
