@@ -1,12 +1,13 @@
 %define upstream_name	 AppConfig-Std
+%define upstream_version 1.10
 Name:		perl-%{upstream_name}
 Version:	1.10
-Release:	4
+Release:	1
 Summary:	Subclass of AppConfig that provides standard options
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/N/NE/NEILB/%{upstream_name}-%{version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/AppConfig-Std-1.10.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(AppConfig)
